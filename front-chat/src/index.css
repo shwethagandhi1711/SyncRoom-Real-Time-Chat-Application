@@ -1,0 +1,64 @@
+/* 
+This line imports Tailwind's BASE styles
+
+Base includes:
+
+✔ CSS Reset (removes browser default styles)
+✔ Normalizes styles across browsers
+✔ Sets default font, margins, headings, etc.
+
+Example:
+Removes default margin from body
+Removes default padding
+
+Without this → design will look different in different browsers
+*/
+
+@tailwind base;
+
+
+
+/* 
+This line imports Tailwind's COMPONENT classes
+
+Components include:
+
+✔ Pre-designed reusable classes
+✔ Button styles
+✔ Form styles
+✔ Container classes
+
+Example:
+.container
+.btn
+.card
+
+You can also create your own custom components using this layer
+*/
+
+@tailwind components;
+
+
+
+/* 
+This line imports Tailwind's UTILITY classes
+
+This is MOST IMPORTANT part of Tailwind
+
+Utilities include:
+
+✔ margin → m-4
+✔ padding → p-2
+✔ flex → flex
+✔ color → bg-red-500
+✔ text → text-center
+✔ width → w-full
+
+Example:
+
+<div class="bg-blue-500 text-white p-4">
+
+These utility classes come from this line
+*/
+
+@tailwind utilities;
