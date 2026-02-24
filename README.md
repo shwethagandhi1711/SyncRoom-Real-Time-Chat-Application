@@ -36,11 +36,17 @@ The SyncRoom-Real-Time Chat Application is a full-stack web application that ena
 
 ## Backend
 
+* Java
+
 * Spring Boot
   
 * Spring WebSocket
   
 * Spring Data MongoDB
+
+* Project Lombok
+
+* Restfuls API
   
 * STOMP Protocol
 
@@ -53,6 +59,12 @@ The SyncRoom-Real-Time Chat Application is a full-stack web application that ena
 * VS Code
   
 * IntelliJ IDEA
+  
+* Postman API
+
+* Github
+
+* Github Desktop
 
 ---
 
